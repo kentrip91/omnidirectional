@@ -11,5 +11,5 @@
 		"settingsFile": "config.json",
 		"settingsMigrator": "config_generator.js"
 	},
-	"servers": ["https://raw.githubusercontent.com/KeeningDawn/omnidirectional/main/"]
+	"servers": ["https://raw.githubusercontent.com/tera-classic-mods/omnidirectional/main/"]
 }

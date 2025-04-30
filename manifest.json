@@ -2,15 +2,13 @@
 	"files": {
 		"config_generator.js": "81d0396bf8c79acf016dd4e6950f48105e1d49aa10b79be5a2bb3b4e2c163636",
 		"index.js": "d6fdb1af283a08fe3af2a149f260379215a7310d01fba2c88635531bd7863a69",
-		"module.json": "3a9382896d8f5d716680ce7d0ee3551e0c77f7bb7ad3fd010a662fc2775a95d5",
-		"node_modules/iohook/index.js": "8b8a5fc136c1c155f8c2f749fdb7ee1ea0ac8b5a69300b366b89481994533202",
+		"module.json": "70cdaa4491193385a5b3bf36cd70560185c9f5c611da1cac7eafe01c95fc3145",
+		"node_modules/iohook/index.js": "86aaa0b6f4367cca407c89a58958bec8b04c226025941ca6dd02c211ac77dd55",
 		"node_modules/iohook/package.json": "352cd3c01d27d3709300119b28ec970eb673d345850b32beb4b03ccf4721f8ec",
-		"node_modules/iohook/res/iohook.node": "426f0fcaa3e30b37cc92f3ee69e15758c272fa6039f8796582ccf0193b216133",
-		"node_modules/iohook/res/uiohook.dll": "1d3dcb5b8d0935209ef23ce5bbfa4802cceb4f9d0de53bb0d474141700d93038",
+		"node_modules/iohook/res/85/iohook.node": "f41e3b43aa5afe62b218adbce51d2f3ed9fee96442fed164d7d21ee9168dcfe4",
+		"node_modules/iohook/res/85/uiohook.dll": "e0d8fc171e1b9f33360b895c34b897e2345ed7a4205e6e9c1a33961229d0cbb3",
+		"node_modules/iohook/res/99/iohook.node": "f53c7594e7b67186ccb13c1e6ffa923cf6f97ffcdfa5ddfe30d7b450304f0a26",
+		"node_modules/iohook/res/99/uiohook.dll": "ce3314fc70425d7af45cd0c650ea324163428843adff54d01df93aaa3dd85f58",
 		"readme.md": "4435d09caa0de58455471631ac1b10f72a428d0f817876acd75f7140036532ff"
-	},
-	"defs": {
-		"C_START_SKILL": 7,
-		"C_START_TARGETED_SKILL": 6
 	}
 }
