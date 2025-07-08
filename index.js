@@ -55,7 +55,7 @@ module.exports = function dirSkillsClassic(mod) {
 		classSkills = null;
 	});
 
-	mod.hook('C_START_SKILL', 7, { order: -999999, filter: { fake: null } }, (event) => {
+	mod.hook('C_START_SKILL', 7, { order: -999999 }, (event) => {
 		if (!mod.settings.enabled) return;
 		if (!(keys[17] || keys[30] || keys[31] || keys[32])) return;
 		if (!classSkills) return;
@@ -98,7 +98,7 @@ module.exports = function dirSkillsClassic(mod) {
 		}
 	});
 
-	mod.hook('C_START_TARGETED_SKILL', 6, { order: -999999, filter: { fake: null } }, (event) => {
+	mod.hook('C_START_TARGETED_SKILL', 6, { order: -999999 }, (event) => {
 		if (!mod.settings.enabled) return;
 		if (!mod.settings.enableTargeted) return;
 		if (!(keys[17] || keys[30] || keys[31] || keys[32])) return;

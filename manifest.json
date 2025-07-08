@@ -1,7 +1,7 @@
 {
 	"files": {
 		"config_generator.js": "81d0396bf8c79acf016dd4e6950f48105e1d49aa10b79be5a2bb3b4e2c163636",
-		"index.js": "d6fdb1af283a08fe3af2a149f260379215a7310d01fba2c88635531bd7863a69",
+		"index.js": "1b019b0f278fad16975f10e3bc7335f2a6679411ce5177c43ae612ae0cd0684b",
 		"module.json": "70cdaa4491193385a5b3bf36cd70560185c9f5c611da1cac7eafe01c95fc3145",
 		"node_modules/iohook/index.js": "86aaa0b6f4367cca407c89a58958bec8b04c226025941ca6dd02c211ac77dd55",
 		"node_modules/iohook/package.json": "352cd3c01d27d3709300119b28ec970eb673d345850b32beb4b03ccf4721f8ec",
