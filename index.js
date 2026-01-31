@@ -3,9 +3,9 @@ const ioHook = require('iohook');
 module.exports = function dirSkillsClassic(mod) {
 	const keys = {
 		17: false, // w
-		30: false, // a
+		16: false, // q
 		31: false, // s
-		32: false, // d
+		18: false, // e
 	};
 
 	ioHook.on('keydown', (event) => {
@@ -188,21 +188,21 @@ module.exports = function dirSkillsClassic(mod) {
 		}
 
 		const W = keys[17],
-			A = keys[30],
+			Q = keys[16],
 			S = keys[31],
-			D = keys[32];
+			E = keys[18];
 		const diagonalOffset = Math.PI / 4;
 		const cardinalOffset = Math.PI / 2;
 
-		if (W && A) return normalizeAngle(w - diagonalOffset); // NW
-		if (W && D) return normalizeAngle(w + diagonalOffset); // NE
-		if (S && A) return normalizeAngle(w - 3 * diagonalOffset); // SW
-		if (S && D) return normalizeAngle(w + 3 * diagonalOffset); // SE
+		if (W && Q) return normalizeAngle(w - diagonalOffset); // NW
+		if (W && E) return normalizeAngle(w + diagonalOffset); // NE
+		if (S && Q) return normalizeAngle(w - 3 * diagonalOffset); // SW
+		if (S && E) return normalizeAngle(w + 3 * diagonalOffset); // SE
 
 		if (W) return normalizeAngle(w); // N
 		if (S) return normalizeAngle(w + Math.PI); // S
-		if (A) return normalizeAngle(w - cardinalOffset); // W
-		if (D) return normalizeAngle(w + cardinalOffset); // E
+		if (Q) return normalizeAngle(w - cardinalOffset); // W
+		if (E) return normalizeAngle(w + cardinalOffset); // E
 
 		return w;
 	}
